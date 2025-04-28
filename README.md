@@ -7,8 +7,7 @@ The model leverages various machine learning algorithms, including XGBoost, SVM,
 
 ## Usage
 
-1. **Prepare the Data:** The model expects cleaned and pre-processed data in a specific format. The data is read from an Excel file (`G.xlsx`) with the sheet name `RidgeTrain`.
-
+1. **Prepare the Data:** The data was scraped from ESPN and then cleaned, it is now located in the  file (`G.xlsx`) with the sheet name `RidgeTrain`.
 2. **Train the Model:** Run the notebook to train the model. The data is split into training and testing sets (70/30 Split), and various machine learning models are trained and evaluated.
 
 3. **Generate Predictions:** The model predicts the probability of each golfer finishing in the top 5 and top 20. The predictions are saved to a CSV file (`T5-T20.csv`).
